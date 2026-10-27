@@ -1,1 +1,0 @@
-export const appendToDisplay = (current, val) => (current === '0' ? val : current + val); export const clearDisplay = () => '0'; export const calculate = (expression) => { try { const result = new Function('return ' + expression)(); return result.toString(); } catch { return 'Error'; } };
