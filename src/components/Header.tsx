@@ -1,0 +1,1 @@
+import React from 'react'; import { ThemeToggle } from './ThemeToggle'; export const Header = () => (<header className="flex justify-between items-center p-4 bg-white dark:bg-gray-900 transition-colors duration-300"><h1>My App</h1><ThemeToggle /></header>);
